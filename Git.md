@@ -22,7 +22,35 @@ Git - это программа чтобы отследить изменения, произошедшие с проектом, со време
 
 ### Настройка
 
+Откройте терминал и запустите команды:
+
+```sh
+git config --global user.name "My Name"
+git config --global user.email myEmail@example.com
+```
+
+Для того, чтобы посмотреть все настройки системы, используйте команду:
+```sh
+git config --list
+```
+
+Для удобства и легкости зрительного восприятия, 
+некоторые группы команд в Гит можно выделить цветом, 
+для этого нужно прописать в консоли:
+
+```sh
+git config --global color.ui true
+git config --global color.status auto
+git config --global color.branch auto
+```
 
 
 
 ### Фиксация изменений
+ 
+* *git version* - проверяем версию
+* *git init* - инициализация
+* *git status* - статус файла
+* *git add* - гит начал отслеживать файл
+* *git commit -m""* - гит подписывает изменения
+* *git log* - журнао изменений
