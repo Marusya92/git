@@ -68,9 +68,4 @@ git config --global color.branch auto
 
 ### Фиксация изменений
  
-* *git version* - проверяем версию
-* *git init* - инициализация
-* *git status* - статус файла
-* *git add* - гит начал отслеживать файл
-* *git commit -m""* - гит подписывает изменения
-* *git log* - журнао изменений
+
